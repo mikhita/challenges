@@ -1,0 +1,22 @@
+pirveli davaleba const entries = [
+  ["name", "elpite"],
+  ["age", 57],
+  ["job", "unemployed"],
+  ["address", "mshvidobis 2"],
+];
+
+const object = Object.fromEntries(entries);
+
+console.log(object);
+
+meore davaleba
+let array = [1, [2, [3, 4, [5, 6, 7]]], 8, [null, 9, [undefined, 10, [null, undefined]]], 11, 12, 13, [null]];
+
+let merged = array.flat(array.length);
+
+    // console.log(merged);
+
+
+let filtered = merged.filter(Number) 
+
+    console.log(filtered);
